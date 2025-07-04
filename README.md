@@ -8,7 +8,8 @@ A Python-based executable tool to **automatically copy files** from USB drives o
 - Simple 'press Enter to sync' interface
 - Compiled into `.exe` for standalone use
 
-# Built With
+
+# Tech stack
 - Python
 - `os`, `shutil` modules
 - PyInstaller (for .exe creation)
