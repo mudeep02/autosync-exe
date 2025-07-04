@@ -30,3 +30,8 @@ A Python-based executable tool to **automatically copy files** from USB drives o
 - Log file with sync timestamps
 
  [@mudeep02](https://github.com/mudeep02) 
+
+
+ ![AutoSync running example].(![Screenshot (29)](https://github.com/user-attachments/assets/3317d176-a227-4f2d-bfa6-10d6331918d9)
+
+
