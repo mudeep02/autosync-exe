@@ -1,27 +1,32 @@
-# AutoSync USB & SD Card Data Backup Tool
+#  AutoSync - USB/SD Card Data Backup Tool (.exe)
 
-A lightweight `.exe` utility built using Python to automatically sync data from inserted USB drives or SD cards into a secure folder on the system.
+A Python-based executable tool to **automatically copy files** from USB drives or SD cards into a local folder when executed.
 
-#   Features
-- Detects and reads external storage devices (USB/SD)
-- Automatically copies files upon execution
-- Saves backup into a pre-defined folder
-- Packaged as an executable `.exe` for easy use
+# Features
+- Detects and accesses external drives (USB, SD card)
+- Copies all files into a predefined folder
+- Simple 'press Enter to sync' interface
+- Compiled into `.exe` for standalone use
 
-# Tech Stack
+# Built With
 - Python
-- PyInstaller (for `.exe` packaging)
-- OS module / shutil for file handling
+- `os`, `shutil` modules
+- PyInstaller (for .exe creation)
 
-# Use Cases
-- Offline file backups
-- Field work / survey data sync
-- Safe-copy mechanism for external drives
+# How It Works
+1. Insert a USB/SD card into your system.
+2. Run `autosync.exe`.
+3. Hit **Enter** to begin syncing.
+4. Files will be backed up to a local `SyncedData/` folder.
 
-# How to Use
-1. Insert USB or SD card
-2. Run the `.exe` file
-3. Press `Enter` to sync — files will be copied automatically
+# Example Use Cases
+- Backup field research or survey data
+- Save important photos from memory cards
+- Quick offline file transfer for non-technical users
 
-# Output
-- Synced files are stored in a `SyncedData/` folder on your PC
+# Future Improvements
+- GUI version with file type filters
+- Auto-detect drive paths
+- Log file with sync timestamps
+
+ [@mudeep02](https://github.com/mudeep02) 
